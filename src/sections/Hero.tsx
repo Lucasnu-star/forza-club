@@ -18,7 +18,7 @@ export default function Hero() {
       <div className={styles.content}>
         <div className={styles.badge}>
           <span className={styles.badgeDot} />
-          <span className={styles.badgeText}>Gym · Physical Fitness Center · Mar del Plata</span>
+          <span className={styles.badgeText}>Gym · Mar del Plata</span>
         </div>
         <h1 className={styles.title}>
           FORZA<span style={{ color: 'var(--color-gold)' }}>CLUB</span>
