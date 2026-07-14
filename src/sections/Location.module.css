@@ -111,6 +111,8 @@
   width: 90px;
   height: 12px;
   background: var(--tape-sm);
+  background-size: 64px 100%;
+  animation: forzaSlide 3.6s linear infinite;
   z-index: 2;
   pointer-events: none;
 }

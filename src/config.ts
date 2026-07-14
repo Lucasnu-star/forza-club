@@ -43,7 +43,7 @@ export const disciplines: Discipline[] = [
   {
     name: 'Entrenamiento personalizado',
     desc: 'Un profe te arma el plan y te sigue de cerca. Objetivos claros, técnica cuidada y progreso real.',
-    img: 'https://images.unsplash.com/photo-1637666505879-49e69f425be6?w=1200&q=80',
+    img: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80',
   },
 ];
 

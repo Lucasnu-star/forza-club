@@ -1,17 +1,12 @@
 import styles from './CtaBand.module.css';
+import DangerTape from '../components/DangerTape';
 import { getWhatsappUrl } from '../config';
 
 export default function CtaBand() {
   return (
     <section className={styles.section}>
-      <div
-        className={styles.tapeTop}
-        style={{ background: 'var(--tape-inverted)' }}
-      />
-      <div
-        className={styles.tapeBottom}
-        style={{ background: 'var(--tape-inverted)' }}
-      />
+      <DangerTape height={14} inverted animated speed={2.2} className={styles.tapeTop} />
+      <DangerTape height={14} inverted animated reverse speed={2.2} className={styles.tapeBottom} />
       <div className={styles.content}>
         <h2 className={styles.heading}>
           Una cuestión

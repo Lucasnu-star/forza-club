@@ -47,6 +47,8 @@
 .cardTape {
   height: 12px;
   background: var(--tape-sm);
+  background-size: 64px 100%;
+  animation: forzaSlide 2.4s linear infinite;
 }
 
 .cardBody {

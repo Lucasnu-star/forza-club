@@ -84,6 +84,8 @@
   height: 14px;
   pointer-events: none;
   background: var(--tape-md);
+  background-size: 64px 100%;
+  animation: forzaSlide 3.8s linear infinite;
   z-index: 2;
 }
 
@@ -95,5 +97,7 @@
   height: 110px;
   pointer-events: none;
   background: var(--tape-md);
+  background-size: 64px 100%;
+  animation: forzaSlide 3.8s linear infinite reverse;
   z-index: 2;
 }

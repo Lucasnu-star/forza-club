@@ -4,7 +4,11 @@
 
 .animated {
   background-size: 64px 100%;
-  animation: slide 3s linear infinite;
+  animation: slide var(--tape-speed, 3s) linear infinite;
+}
+
+.reverse {
+  animation-direction: reverse;
 }
 
 @keyframes slide {

@@ -16,7 +16,7 @@ function App() {
       <FloatingWhatsApp />
       <Nav />
       <Hero />
-      <DangerTape height={16} />
+      <DangerTape height={16} animated reverse speed={3.5} />
       <Club />
       <Classes />
       <Trainers />

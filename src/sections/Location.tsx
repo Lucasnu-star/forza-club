@@ -5,7 +5,7 @@ import { getDirectionsUrl, getMapEmbedUrl, siteConfig } from '../config';
 export default function Location() {
   return (
     <section id="ubicacion" className={styles.section}>
-      <DangerTape height={16} className={styles.topTape} />
+      <DangerTape height={16} animated reverse speed={3.2} className={styles.topTape} />
       <div className={styles.grid}>
         <div>
           <span className="eyebrow">Horarios</span>

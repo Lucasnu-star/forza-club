@@ -72,6 +72,8 @@
 .divider {
   height: 12px;
   background: var(--tape-sm);
+  background-size: 64px 100%;
+  animation: forzaSlide 4.2s linear infinite reverse;
   margin: 40px 0 24px;
 }
 

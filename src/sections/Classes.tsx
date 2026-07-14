@@ -5,7 +5,7 @@ import { disciplines, getWhatsappUrl } from '../config';
 export default function Classes() {
   return (
     <section id="clases" className={styles.section}>
-      <DangerTape height={16} className={styles.topTape} />
+      <DangerTape height={16} animated speed={2.6} className={styles.topTape} />
       <div className={styles.container}>
         <div className={styles.header}>
           <span className="eyebrow">Disciplinas</span>
