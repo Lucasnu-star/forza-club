@@ -37,7 +37,7 @@ export interface Discipline {
 export const disciplines: Discipline[] = [
   {
     name: 'Musculación',
-    desc: 'Sala completa de fuerza y máquinas. Pesos libres, mancuernas, kettlebells y barras para armar tu rutina sin esperar.',
+    desc: 'Sala completa de fuerza y máquinas. Pesos libres, mancuernas y barras para armar tu rutina sin esperar.',
     img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80',
   },
   {

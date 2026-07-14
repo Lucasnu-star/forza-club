@@ -18,7 +18,7 @@ export default function Club() {
             tu <span style={{ color: 'var(--color-gold)' }}>salud</span>
           </h2>
           <p className={styles.body}>
-            Somos un Gym Physical Fitness Center pensado para que entrenes en serio. Ambiente
+            Somos ForzaClub, pensado para que entrenes en serio. Ambiente
             real, mood industrial, equipamiento completo y gente que le mete todos los días. Acá
             no hay excusas: hay actitud.
           </p>

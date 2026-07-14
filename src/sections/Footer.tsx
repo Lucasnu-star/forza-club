@@ -16,7 +16,7 @@ export default function Footer() {
               FORZA<span style={{ color: 'var(--color-gold)' }}>CLUB</span>
             </span>
           </div>
-          <p className={styles.tagline}>Gym Physical Fitness Center. Vení a cuidar tu salud.</p>
+          <p className={styles.tagline}>ForzaClub. Vení a cuidar tu salud.</p>
         </div>
         <div>
           <h4 className={styles.colTitle}>Ubicación</h4>
