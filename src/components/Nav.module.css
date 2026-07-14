@@ -1,0 +1,54 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 14px clamp(16px, 4vw, 56px);
+  background: rgba(17, 17, 17, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid var(--color-border-1);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+}
+
+.wordmark {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2.4vw, 32px);
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #d9d9d9;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 14px;
+}
+
+.link:hover {
+  color: var(--color-gold);
+}
+
+.cta {
+  padding: 11px 22px;
+  clip-path: var(--clip-btn-xs);
+}

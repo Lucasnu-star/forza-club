@@ -1,0 +1,17 @@
+.tape {
+  pointer-events: none;
+}
+
+.animated {
+  background-size: 64px 100%;
+  animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 64px 0;
+  }
+}

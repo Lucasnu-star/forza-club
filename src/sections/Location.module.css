@@ -1,0 +1,131 @@
+.section {
+  padding: var(--section-pad-y) var(--section-pad-x);
+  background: var(--color-bg-alt);
+  position: relative;
+}
+
+.topTape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.grid {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: clamp(28px, 4vw, 48px);
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.95;
+  font-size: clamp(30px, 5vw, 52px);
+  margin: 14px 0 26px;
+}
+
+.schedule {
+  border: 1px solid var(--color-border-2);
+  background: var(--color-bg);
+}
+
+.scheduleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 24px;
+  border-bottom: 1px solid var(--color-border-2);
+}
+
+.scheduleRow:last-child {
+  border-bottom: none;
+}
+
+.scheduleDay {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 17px;
+}
+
+.scheduleHours {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--color-gold);
+}
+
+.closed {
+  color: var(--color-muted-2);
+}
+
+.closedHours {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-muted-2);
+}
+
+.address {
+  margin-top: 26px;
+  border-left: 3px solid var(--color-gold);
+  padding-left: 16px;
+}
+
+.addressLine {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.addressCity {
+  color: #a0a0a0;
+  font-size: 15px;
+}
+
+.mapCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapFrame {
+  position: relative;
+  flex: 1;
+  min-height: 340px;
+  border: 1px solid var(--color-border-2);
+  overflow: hidden;
+}
+
+.mapTape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 12px;
+  background: var(--tape-sm);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.mapFrame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: grayscale(0.35) contrast(1.05);
+  display: block;
+}
+
+.directionsBtn {
+  width: 100%;
+  font-size: 16px;
+  padding: 17px 28px;
+  margin-top: 16px;
+}
